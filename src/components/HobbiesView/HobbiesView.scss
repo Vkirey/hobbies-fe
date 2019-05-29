@@ -1,0 +1,33 @@
+.hobby-row {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    
+    .hobby-passion-column {
+        display: inline-block;
+        width: 25%;
+        text-indent: 15px;
+    }
+
+    .hobby-name-column {
+        display: inline-block;
+        width: 25%;
+        text-indent: 15px;
+    }
+
+    .hobby-year-column {
+        display: inline-block;
+        width: 25%;
+        text-indent: 15px;
+    }
+
+    .delete-hobby-column {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+
+        .delete-button {
+            padding: 3px 11px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.selected {
+    color: red;
+}
+
+.users-list {
+    padding: 10px 0;
+
+    .user-row {
+        padding: 8px 10px;
+        cursor: pointer;
+        border-bottom: 1px solid lightgray;
+
+        &:hover {
+            background: #e2e2e2;
+        }
+
+        &.selected {
+            color: blueviolet;
+            background: #e2e2e2;
+        }
+    }
+}

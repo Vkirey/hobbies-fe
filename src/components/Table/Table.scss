@@ -1,0 +1,19 @@
+.table-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+}
+
+.table-column-half {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+    overflow-y: auto;
+
+    &.left {
+        border-right: 1px solid lightgray;
+        width: calc(50% - 1px);
+    }
+}
